@@ -6,14 +6,14 @@
 title: 小幻博客
 subtitle: ''
 description: '小幻博客记录自己在工作中碰到了错误,以及解决方案。分享学习与生活中的趣事！'
-keywords:
+keywords: 博客,小幻博客,分享,幻,后端,羊毛,loc,web
 author: 小幻
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://52xhuan.pages.dev
+url: https://hexo.52xhuan.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,3 +103,6 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+sitemap:
+path: sitemap.xml
